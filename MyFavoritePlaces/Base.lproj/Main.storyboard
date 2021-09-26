@@ -86,7 +86,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y5z-cS-ric" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="811.59420289855075" y="117.85714285714285"/>
+            <point key="canvasLocation" x="593" y="118"/>
         </scene>
         <!--New Place-->
         <scene sceneID="sd4-g6-IRI">
@@ -236,19 +236,27 @@
                     <navigationItem key="navigationItem" title="New Place" id="rAm-rT-MNG">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="zE2-jZ-vEd">
                             <connections>
-                                <segue destination="tDF-YW-hdd" kind="unwind" unwindAction="cancelAction:" id="6BI-zt-rmg"/>
+                                <action selector="cancelAction:" destination="uDo-L3-baX" id="j3P-Pk-iSr"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9mJ-Pp-HSZ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9mJ-Pp-HSZ">
+                            <connections>
+                                <segue destination="tDF-YW-hdd" kind="unwind" unwindAction="unwindSegue:" id="pln-Fr-RHF"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="imageOfPlace" destination="ikM-ko-J53" id="IGc-OZ-awT"/>
+                        <outlet property="placeImage" destination="ikM-ko-J53" id="IGc-OZ-awT"/>
+                        <outlet property="placeLocation" destination="zAx-Qm-YU3" id="uk8-i6-Yqp"/>
+                        <outlet property="placeName" destination="H7K-zN-Zfw" id="dhh-HT-U6a"/>
+                        <outlet property="placeType" destination="vWf-mo-wnz" id="VyU-eu-2pl"/>
+                        <outlet property="saveButton" destination="9mJ-Pp-HSZ" id="Bqd-rq-ja3"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIw-me-GHV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="tDF-YW-hdd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2224.6376811594205" y="117.85714285714285"/>
+            <point key="canvasLocation" x="1903" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eMh-5j-FkQ">
@@ -285,7 +293,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DdO-B9-d2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1524.6376811594205" y="117.85714285714285"/>
+            <point key="canvasLocation" x="1257" y="118"/>
         </scene>
     </scenes>
     <resources>
