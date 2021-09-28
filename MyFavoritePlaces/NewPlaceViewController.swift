@@ -8,8 +8,7 @@
 import UIKit
 
 class NewPlaceViewController: UITableViewController {
-    
-    var newPlace: Place?
+
     var imageIsChanged = false
     
     @IBOutlet var saveButton: UIBarButtonItem!
@@ -24,7 +23,6 @@ class NewPlaceViewController: UITableViewController {
 
         tableView.tableFooterView = UIView()
         saveButton.isEnabled = false
-        
         placeName.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
     }
     
@@ -63,6 +61,7 @@ class NewPlaceViewController: UITableViewController {
     }
     
     func saveNewPlace() {
+        
         var image: UIImage?
         
         if imageIsChanged {
@@ -71,13 +70,14 @@ class NewPlaceViewController: UITableViewController {
             image = #imageLiteral(resourceName: "imagePlaceholder")
         }
         
-        newPlace = Place(
-            name: placeName.text!, // метод вызывается только когда поле не будет пустым, force anwrap в данном случае безопасен.
-            location: placeLocation.text,
-            type: placeType.text,
-            image: image,
-            restaurantImage: nil
-        )
+        let imageData = image?.pngData()
+        
+        let newPlace = Place(name: placeName.text!,
+                             location: placeLocation.text,
+                             type: placeType.text,
+                             imageData: imageData)
+        
+        StorageManager.saveObject(newPlace)
     }
     
     @IBAction func cancelAction(_ sender: Any) {
@@ -87,7 +87,6 @@ class NewPlaceViewController: UITableViewController {
 }
 
 //MARK: Text field delegate
-
 extension NewPlaceViewController: UITextFieldDelegate {
     
     //Скрываем клавиутуру по нажатию на Done
@@ -108,7 +107,6 @@ extension NewPlaceViewController: UITextFieldDelegate {
 }
 
 //MARK: Work with image
-
 extension NewPlaceViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func chooseImagePicker(source: UIImagePickerController.SourceType) {
