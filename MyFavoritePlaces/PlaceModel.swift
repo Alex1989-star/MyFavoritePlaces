@@ -12,6 +12,7 @@ class Place: Object {
     @objc dynamic var location: String?
     @objc dynamic var type: String?
     @objc dynamic var imageData: Data?
+    var restaurantName: String?
     
     convenience init(name: String, location: String?, type: String?, imageData: Data?) {
         self.init()
@@ -21,3 +22,4 @@ class Place: Object {
         self.imageData = imageData
     }
 }
+
