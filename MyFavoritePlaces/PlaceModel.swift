@@ -8,11 +8,11 @@
 import RealmSwift
 
 class Place: Object {
-    @objc dynamic var name: String = ""
+    @objc dynamic var name = ""
     @objc dynamic var location: String?
     @objc dynamic var type: String?
     @objc dynamic var imageData: Data?
-    var restaurantName: String?
+    @objc dynamic var date = Date()
     
     convenience init(name: String, location: String?, type: String?, imageData: Data?) {
         self.init()
