@@ -58,6 +58,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF3ECFE827046AA80047B022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF3B15E726CFAF3B00167954 /* PlaceModel.swift */,
+				CF6007962700780200147314 /* StorageManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF3ECFE927046ADE0047B022 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CF6723F026CF92220053989E /* MainViewController.swift */,
+				CFB87CA326DCCE0C00AB9663 /* NewPlaceViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CF3ECFEA27046B0E0047B022 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CF6723DA26CF8E040053989E /* AppDelegate.swift */,
+				CF6723DC26CF8E040053989E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CF3ECFEB27046B2B0047B022 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF3B15E426CFAA3700167954 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF3ECFEC27046B520047B022 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF6723E526CF8E060053989E /* LaunchScreen.storyboard */,
+				CF6723E026CF8E040053989E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CF3ECFED27046B700047B022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF6723E326CF8E060053989E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CF6723CE26CF8E040053989E = {
 			isa = PBXGroup;
 			children = (
@@ -79,16 +131,12 @@
 		CF6723D926CF8E040053989E /* MyFavoritePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				CF6723DA26CF8E040053989E /* AppDelegate.swift */,
-				CF6723F026CF92220053989E /* MainViewController.swift */,
-				CFB87CA326DCCE0C00AB9663 /* NewPlaceViewController.swift */,
-				CF3B15E426CFAA3700167954 /* CustomTableViewCell.swift */,
-				CF6723DC26CF8E040053989E /* SceneDelegate.swift */,
-				CF6723E026CF8E040053989E /* Main.storyboard */,
-				CF3B15E726CFAF3B00167954 /* PlaceModel.swift */,
-				CF6007962700780200147314 /* StorageManager.swift */,
-				CF6723E326CF8E060053989E /* Assets.xcassets */,
-				CF6723E526CF8E060053989E /* LaunchScreen.storyboard */,
+				CF3ECFED27046B700047B022 /* Resources */,
+				CF3ECFEC27046B520047B022 /* Storyboards */,
+				CF3ECFEB27046B2B0047B022 /* Views */,
+				CF3ECFEA27046B0E0047B022 /* Application */,
+				CF3ECFE927046ADE0047B022 /* VC */,
+				CF3ECFE827046AA80047B022 /* Model */,
 				CF6723E826CF8E060053989E /* Info.plist */,
 			);
 			path = MyFavoritePlaces;
