@@ -17,6 +17,7 @@
 		CF6723E426CF8E060053989E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6723E326CF8E060053989E /* Assets.xcassets */; };
 		CF6723E726CF8E060053989E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6723E526CF8E060053989E /* LaunchScreen.storyboard */; };
 		CF6723F126CF92220053989E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6723F026CF92220053989E /* MainViewController.swift */; };
+		CF6A88B42706F72F0012378B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A88B32706F72F0012378B /* RatingControl.swift */; };
 		CFB87CA426DCCE0C00AB9663 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB87CA326DCCE0C00AB9663 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		CF6723E626CF8E060053989E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6723E826CF8E060053989E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6723F026CF92220053989E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF6A88B32706F72F0012378B /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		CFB87CA326DCCE0C00AB9663 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		F6721DE9CDC9D53B8E86621D /* Pods-MyFavoritePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFavoritePlaces.debug.xcconfig"; path = "Target Support Files/Pods-MyFavoritePlaces/Pods-MyFavoritePlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3B15E426CFAA3700167954 /* CustomTableViewCell.swift */,
+				CF6A88B32706F72F0012378B /* RatingControl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				CFB87CA426DCCE0C00AB9663 /* NewPlaceViewController.swift in Sources */,
 				CF6723DB26CF8E040053989E /* AppDelegate.swift in Sources */,
 				CF6007972700780200147314 /* StorageManager.swift in Sources */,
+				CF6A88B42706F72F0012378B /* RatingControl.swift in Sources */,
 				CF3B15E826CFAF3B00167954 /* PlaceModel.swift in Sources */,
 				CF3B15E526CFAA3700167954 /* CustomTableViewCell.swift in Sources */,
 				CF6723DD26CF8E040053989E /* SceneDelegate.swift in Sources */,
