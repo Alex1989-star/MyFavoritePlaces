@@ -252,6 +252,9 @@
                             <constraint firstItem="ke5-4e-GPS" firstAttribute="trailing" secondItem="Wda-1T-8aE" secondAttribute="trailing" constant="40" id="t02-ng-ydp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="gK7-Db-K40" id="cEQ-Hu-ik9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8E-tK-bKI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
