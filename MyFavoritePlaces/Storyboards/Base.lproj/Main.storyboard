@@ -240,6 +240,17 @@
                                     <action selector="closeVC" destination="Y9x-Lr-Ysn" eventType="touchUpInside" id="ei3-vp-44G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp6-ZN-An4">
+                                <rect key="frame" x="324" y="772" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="70h-od-kjK"/>
+                                    <constraint firstAttribute="height" constant="50" id="IBl-rY-76s"/>
+                                </constraints>
+                                <state key="normal" image="location"/>
+                                <connections>
+                                    <action selector="centerViewLocation" destination="Y9x-Lr-Ysn" eventType="touchUpInside" id="eZ4-Nd-qqR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ke5-4e-GPS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -248,6 +259,8 @@
                             <constraint firstItem="gK7-Db-K40" firstAttribute="trailing" secondItem="ke5-4e-GPS" secondAttribute="trailing" id="10f-tJ-LF3"/>
                             <constraint firstItem="gK7-Db-K40" firstAttribute="leading" secondItem="ke5-4e-GPS" secondAttribute="leading" id="1ls-Wf-ghP"/>
                             <constraint firstAttribute="bottom" secondItem="gK7-Db-K40" secondAttribute="bottom" id="C8v-aA-6Ee"/>
+                            <constraint firstItem="ke5-4e-GPS" firstAttribute="trailing" secondItem="bp6-ZN-An4" secondAttribute="trailing" constant="40" id="P9S-2Z-YS5"/>
+                            <constraint firstItem="ke5-4e-GPS" firstAttribute="bottom" secondItem="bp6-ZN-An4" secondAttribute="bottom" constant="40" id="ZF4-9m-xT5"/>
                             <constraint firstItem="gK7-Db-K40" firstAttribute="top" secondItem="lVH-Hg-LVZ" secondAttribute="top" id="jTY-xf-EWr"/>
                             <constraint firstItem="ke5-4e-GPS" firstAttribute="trailing" secondItem="Wda-1T-8aE" secondAttribute="trailing" constant="40" id="t02-ng-ydp"/>
                         </constraints>
@@ -446,6 +459,7 @@
         <image name="AZ" width="25" height="24"/>
         <image name="Photo" width="195" height="196"/>
         <image name="camcel" width="128" height="128"/>
+        <image name="location" width="256" height="256"/>
         <image name="map" width="50" height="50"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
