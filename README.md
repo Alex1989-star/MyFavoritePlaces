@@ -1,8 +1,6 @@
 # MyFavoritePlaces
 
- <img src="https://user-images.githubusercontent.com/84350949/142168426-3c1940be-d48c-40c4-82ee-709f853dfdb2.png" width="250" />
-
-<img src="https://user-images.githubusercontent.com/84350949/142169112-e8f2bb53-db70-4271-aa99-31c1fc4b8935.png" width="250" />
+ <img src="https://user-images.githubusercontent.com/84350949/142168426-3c1940be-d48c-40c4-82ee-709f853dfdb2.png" width="250" /> <img src="https://user-images.githubusercontent.com/84350949/142169112-e8f2bb53-db70-4271-aa99-31c1fc4b8935.png" width="250" />
 
 
 
