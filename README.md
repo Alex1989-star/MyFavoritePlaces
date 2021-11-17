@@ -1,11 +1,12 @@
 # MyFavoritePlaces
 
-/var/folders/k7/d0b1cccx3p1dz81424814n6h0000gn/T/simulator_screenshot_1AF1D088-2824-4C74-BDBA-BAD6FA32BE2B.png
 
-/var/folders/k7/d0b1cccx3p1dz81424814n6h0000gn/T/simulator_screenshot_A679BEDB-A360-48F1-A161-CF448FF5F298.png
+![Simulator Screen Shot - iP![Simulator Screen Shot - iPhone 11 - 2021-11-17 at 11 32 49](https://user-images.githubusercontent.com/84350949/142164033-28b1bc52-301d-49d9-a7bf-856e6e5f77ec.png)
+hone 11 - 2021-11-17 at 11 32 ![Simulator Screen Shot - iPhone 11 - 2021-11-17 at 11 33 12](https://user-images.githubusercontent.com/84350949/142164161-b8a9c37d-3394-422b-9438-5285ca7ffeea.png)
+06](https://user-i![Simulator Screen Shot - iPhone 11 - 2021-11-17 at 11 33 27](https://user-images.githubusercontent.com/84350949/142164302-4b7df966-50ca-4f17-93c6-ac8cb9afa79b.png)
+mages.githubusercontent.com/84350949/142163926-e0939f0c-931a-42ba-aa20-e9bf7797412b.png)
 
-/var/folders/k7/d0b1cccx3p1dz81424814n6h0000gn/T/simulator_screenshot_33A58C91-7B6E-49B2-8779-B1630E394305.png
-/var/folders/k7/d0b1cccx3p1dz81424814n6h0000gn/T/simulator_screenshot_E5705FBD-983F-4A28-B12E-4D81613F7A9D.png
+
 
 Основной использованный стек:  UIKit, Navigation Controller, Realm, MVC, AlertController, Cosmos, MapKit, CoreLocation.
 
