@@ -1,6 +1,8 @@
 # MyFavoritePlaces
 
-![Simulator Screen Shot - iPhone 11 - 2021-11-17 at 11 53 48] <img src="https://user-images.githubusercontent.com/84350949/142168426-3c1940be-d48c-40c4-82ee-709f853dfdb2.png" width="200" />
+ <img src="https://user-images.githubusercontent.com/84350949/142168426-3c1940be-d48c-40c4-82ee-709f853dfdb2.png" width="250" />
+
+
 
 
 
